@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "x0jtNioPyIJYpmxofiYNq8FTtN/XyQ7AuD3nUJJHr62xuEOWMdeyhmzedCpJmmJTiL+SDk9/2fd6AE/Z6U2AfQ==",
+  "success": true,
+  "projectFilePath": "/Users/souravdas/Projects/Tutorial/Microservice/Tutorial-microservice/InventoryApp/InventoryApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/souravdas/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/souravdas/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.30/microsoft.netcore.app.host.osx-x64.3.1.30.nupkg.sha512",
+    "/Users/souravdas/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
