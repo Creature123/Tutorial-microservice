@@ -8,8 +8,20 @@
 
   <ItemGroup>
     <None Remove="Ocelot" />
+    <None Remove="Configuration\" />
+    <None Remove="Serilog" />
+    <None Remove="Serilog.Sinks.File" />
+    <None Remove="Serilog.Settings.Configuration" />
+    <None Remove="Serilog.Sinks.Http" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Ocelot" Version="16.0.1" />
+    <PackageReference Include="Serilog" Version="2.12.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.4.0" />
+    <PackageReference Include="Serilog.Sinks.Http" Version="8.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Configuration\" />
   </ItemGroup>
 </Project>
