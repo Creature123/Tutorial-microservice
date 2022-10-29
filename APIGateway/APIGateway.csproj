@@ -3,6 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <DockerComposeProjectPath>../InventoryApp/docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>edcf3daa-8396-48f7-9846-e9aebc4bd421</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Ocelot" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Ocelot" Version="16.0.1" />
+  </ItemGroup>
 </Project>

@@ -11,6 +11,8 @@
     <None Remove="Serilog" />
     <None Remove="Newtonsoft.Json" />
     <None Remove="Swashbuckle.AspNetCore" />
+    <None Remove="docker-compose.yml" />
+    <None Remove="docker-compose.override.yml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Serilog" Version="2.12.0" />
