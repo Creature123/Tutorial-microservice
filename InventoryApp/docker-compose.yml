@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  inventoryapp:
+    image: ${DOCKER_REGISTRY-}inventoryapp
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+
+  apigateway:
+    image: ${DOCKER_REGISTRY-}apigateway
+    build:
+      context: .
+      dockerfile: ../APIGateway/Dockerfile
+
